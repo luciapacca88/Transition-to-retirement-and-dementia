@@ -34,6 +34,16 @@ Researchers interested in reproducing the analyses must register with the HRS an
 
 Researchers may contact the corresponding author (pacca@wustl.edu) to inquire about access to the analytic dataset. Any sharing of the dataset will be subject to HRS data-use policies and applicable permissions.
 
+## Software requirements and reproducibility
+
+The analyses were conducted using Stata and R. The Stata scripts perform data preparation, variable construction, regression analyses, and descriptive statistics. The R script performs sequence and cluster analyses and generates the corresponding visualizations.
+
+Researchers wishing to reproduce the analyses should install the relevant software and required packages, obtain access to the HRS data, and update the file paths in the scripts to reflect their local environment.
+
+The analytic dataset is not included in this repository. Access to the underlying HRS data is subject to applicable data-use requirements.
+
+The repository provides the analytical code used in the manuscript but does not include a standalone software application or demonstration dataset.
+
 ## Contact
 
 Lucia Pacca, PhD  
